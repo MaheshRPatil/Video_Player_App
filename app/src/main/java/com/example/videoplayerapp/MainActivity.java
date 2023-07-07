@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         videoView.setMediaController(mc);
 
         //Display Video from internet URL (Links)
+/*
         Uri uri=Uri.parse("https://static.videezy.com/system/resources/previews/000/006/879/original/Lab38.mp4");
         videoView.setVideoURI(uri);
         MediaController mc2=new MediaController(this);
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         videoView2.setMediaController(mc2);
         videoView2.start();
 
-
+ */
 
     }
 }
